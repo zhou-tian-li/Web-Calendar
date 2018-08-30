@@ -1,0 +1,181 @@
+
+html{
+	background: url("../img/background.png") no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+
+header,footer{
+	margin: auto;
+    width: 80%;
+    border: 3px solid white;
+	border-radius:6px;
+    padding: 10px;
+	background-color:rgba(51, 0, 102, 0.80);
+	background-size: 2000px;
+	box-shadow: 0px 0px 25px 0px;
+}
+
+section{
+	margin: auto;
+	width: 80%;
+    border: 3px solid white;
+    padding: 10px;
+	background-color:rgba(51, 0, 102, 0.80) ;
+	border-radius:6px;
+	box-shadow: 0px 0px 25px 0px;
+	
+}
+
+
+
+
+table{
+    border: 3px solid black;
+	color:black;
+	background-color:white;
+	opacity:0.85;
+	border-spacing:0;
+	border-radius:6px;
+}
+
+.darkBackground{
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	display: none;
+	position:fixed;
+	background-color:black;
+	opacity:0.45;
+	overflow:auto;
+	z-index:2;
+}
+
+h1,a,body{
+	text-decoration:none;
+	color: white;
+	font-family:tahoma;
+}
+
+
+
+
+label{
+	font-weight:bold;
+}
+
+h1,h2{
+	text-align:center;
+}
+
+
+h3{
+	font-size:30px;;
+}
+
+.nameOfUser{
+	color:orange;
+}
+
+
+
+
+.loginForm{
+	padding-left:25%;
+}
+
+.errorMsg{
+	padding-left:400px;
+	color:red;
+}
+
+input[type=text]{
+	width:300px;
+}
+
+input[type=email]{
+	width:300px;
+}
+input[type=password]{
+	width:300px;
+}
+
+#email_id{
+	margin-left:38px;
+}
+
+#password_id{
+	margin-left:5px;
+}
+
+
+
+
+.Buttons{
+    padding: 10px;
+	background-color:white ;
+	border-radius:6px;
+	box-shadow: 0px 0px 25px 0px;
+	font-size:14px;
+	cursor:pointer;
+	font-weight:bold;
+	border:none;
+}
+
+.Buttons:hover{
+	background-color:black ;
+	color:white;
+}
+
+#loginButton{
+	position:relative;
+	left:340px;
+}
+#logoutButton{
+	position:absolute;
+	top:30px;
+	right:10px;
+}
+
+.sub-title{
+	position:relative;
+	left:-50px;
+	width:90%;
+}
+
+.sub-title-container{
+	position:relative;
+	margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+
+
+
+
+.noclose .ui-dialog-titlebar-close
+{
+    display:none;
+}
+
+#event_changeDate_container label,#resizeLabel{
+	color:red;
+}
+
+#name_id{
+	display:none;
+}
+
+
+
+footer{
+	position:relative;
+	height:40px;
+}
+
+
+
